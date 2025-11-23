@@ -2,7 +2,7 @@ public class SimpleConsecutive {
     public static int minMissing(int[] a, int k) {
         int n = a.length, ans = 0;
 
-        for (int i = 0; i + k <= n; i++) { /*i=0,4<=6,present[5],count=0*/
+        for (int i = 0; i + k <= n; i++) {
             boolean[] present = new boolean[k + 1];
             int count = 0;
 
