@@ -95,7 +95,7 @@ public class longest_subarray_sum {
         return maxLen;
     }
     public static void main(String[] args) {
-        int a[]={2,0,0,0,3};
+        int a[]={1,2,1,2,1};
         System.out.println("Maximum length of subarray: "+subarray(a,3));
     }
 }
